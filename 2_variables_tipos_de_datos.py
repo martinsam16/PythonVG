@@ -112,7 +112,27 @@ print(type(ella_me_ama))
 
 nietchze = None
 
+# _
 
+(_ , b) = ('2021', 2022)
+print(_, b)
 
+# operators
 
+a = 1
+b = 2
+suma                = a + b
+resta               = a - b
+multipliacion       = a * b
+division            = a / b
+resto               = a % b
+potencia            = a ** b
+division_enteros    = a // b # redondea
+
+# Asignacion y operación
+a += 1
+a = a + 1
+
+a -= 1
+a = a + 1
 
