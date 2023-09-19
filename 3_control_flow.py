@@ -93,3 +93,18 @@ for letra in saludo_peruano:
 for letra in range(1, 10+1, 1):
     print(letra)
 
+print("*"*10)
+# List comprehension
+lista_a_iterar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# lista[x=0:y= :z=1]
+# x es incluyente
+# y es excluyente
+# z saltos
+# default[0::1]
+#resultado = lista_a_iterar[0::1]
+resultado = lista_a_iterar[8::-2]
+print(resultado)
+
+# Slicing
+
+
